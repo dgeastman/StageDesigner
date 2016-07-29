@@ -44,6 +44,10 @@
       <HintPath>C:\Kerbal Space Program - dev\KSP_x64_Data\Managed\KSPUtil.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="RealFuels">
+      <HintPath>C:\Kerbal Space Program - dev\GameData\RealFuels\Plugins\RealFuels.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -57,6 +61,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EngineData.cs" />
+    <Compile Include="KSPPluginFrameworkExt\ClassDefinitions.cs" />
+    <Compile Include="KSPPluginFrameworkExt\Extensions.cs" />
+    <Compile Include="KSPPluginFrameworkExt\ExtensionsKSP.cs" />
+    <Compile Include="KSPPluginFrameworkExt\MonoBehaviourWindowPlus.cs" />
     <Compile Include="KSPPluginFramework\ConfigNodeStorage.cs" />
     <Compile Include="KSPPluginFramework\ExtensionsUnity.cs" />
     <Compile Include="KSPPluginFramework\MonoBehaviourExtended.cs" />
@@ -64,6 +72,7 @@
     <Compile Include="KSPPluginFramework\SkinsLibrary.cs" />
     <Compile Include="StageDesignerWindow.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Styles.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Textures\AppLauncherIcon.png" />

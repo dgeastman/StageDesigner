@@ -14,8 +14,8 @@ using KSP;
 using UnityEngine;
 
 namespace KSPPluginFramework
-{ 
-    public abstract class ConfigNodeStorage : IPersistenceLoad, IPersistenceSave
+{
+    internal abstract class ConfigNodeStorage : IPersistenceLoad, IPersistenceSave
     {
         #region Constructors
         /// <summary>

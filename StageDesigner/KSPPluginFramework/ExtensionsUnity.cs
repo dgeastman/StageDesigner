@@ -18,7 +18,7 @@ namespace KSPPluginFramework
     /// <summary>
     /// CLass containing some extension methods for Unity Objects
     /// </summary>
-    public static class UnityExtensions
+    internal static class UnityExtensions
     {
         /// <summary>
         /// Ensure that the Rect remains within the screen bounds

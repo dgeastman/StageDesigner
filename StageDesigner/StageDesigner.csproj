@@ -56,12 +56,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppLauncher.cs" />
     <Compile Include="EngineData.cs" />
-    <Compile Include="Events.cs" />
-    <Compile Include="MainWindow.cs" />
-    <Compile Include="Settings.cs" />
-    <Compile Include="StageDesigner.cs" />
+    <Compile Include="KSPPluginFramework\ConfigNodeStorage.cs" />
+    <Compile Include="KSPPluginFramework\ExtensionsUnity.cs" />
+    <Compile Include="KSPPluginFramework\MonoBehaviourExtended.cs" />
+    <Compile Include="KSPPluginFramework\MonoBehaviourWindow.cs" />
+    <Compile Include="KSPPluginFramework\SkinsLibrary.cs" />
+    <Compile Include="StageDesignerWindow.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,315 @@
+PartName,Title,Config,BurnTime,hasBurnTime,isRcs
+
+proceduralSRBRealFuels,Solid Rocket Motor [Procedural],Normal,0,FALSE,FALSE
+ionEngine,NSTAR Ion Thruster,NSTAR,0,FALSE,FALSE
+smallRadialEngine,RD-856 [Radial],RD-856,0,FALSE,FALSE
+liquidEngineMini,Lunar Module Ascent Engine,LMAE,0,FALSE,FALSE
+liquidEngineMiniRescale,Aestus II,AestusII,0,FALSE,FALSE
+toroidalAerospike,J-2T-200/250K,J-2T-200K,0,FALSE,FALSE
+toroidalAerospike,J-2T-200/250K,J-2T-250K,0,FALSE,FALSE
+microEngine,1kN Thruster,HTP,0,FALSE,FALSE
+microEngine,1kN Thruster,Hydrazine,0,FALSE,FALSE
+microEngine,1kN Thruster,NitrousOxide,0,FALSE,FALSE
+microEngine,1kN Thruster,Helium,0,FALSE,FALSE
+microEngine,1kN Thruster,Nitrogen,0,FALSE,FALSE
+microEngine,1kN Thruster,MMH+NTO,0,FALSE,FALSE
+microEngine,1kN Thruster,UDMH+NTO,0,FALSE,FALSE
+microEngine,1kN Thruster,Aerozine50+NTO,0,FALSE,FALSE
+microEngine,1kN Thruster,Cavea-B,0,FALSE,FALSE
+RO-SurveyorVernier,TD-339,TD-339,0,FALSE,FALSE
+ROAJ10-137,AJ10-137 (Service Propulsion System),AJ10-137,0,FALSE,FALSE
+ROAerobeeSustainer,Aerobee,WAC-Corporal,50,TRUE,FALSE
+ROAerobeeSustainer,Aerobee,XASR-1,65,TRUE,FALSE
+ROAerobeeSustainer,Aerobee,AJ10-27,70,TRUE,FALSE
+radialEngineMini,LR101 Series,LR101-NA-3,360,TRUE,FALSE
+radialEngineMini,LR101 Series,LR101-NA-11,360,TRUE,FALSE
+radialEngineMini,LR101 Series,LR101-NA-15,360,TRUE,FALSE
+liquidEngine3,RD-0105/0109 Series,RD-0105,440,TRUE,FALSE
+liquidEngine3,RD-0105/0109 Series,RD-0109,440,TRUE,FALSE
+RO-XLR99,XLR99 Spaceplane Engine,XLR99,0,FALSE,FALSE
+RO.KVD1,KVD-1/CE-7.5,KVD-1-Verniers,0,FALSE,FALSE
+nuclearEngine,NERVA I,NERVA-I,36000,TRUE,FALSE
+liquidEngine,LR105 Series,LR105-NA-3,330,TRUE,FALSE
+liquidEngine,LR105 Series,LR105-NA-5/6,350,TRUE,FALSE
+liquidEngine,LR105 Series,LR105-NA-7.1,350,TRUE,FALSE
+liquidEngine,LR105 Series,LR105-NA-7.2,350,TRUE,FALSE
+liquidEngine,LR105 Series,RS-56-OSA,350,TRUE,FALSE
+liquidEngine2,S1.5400/RD-58 Series,11D33,250,TRUE,FALSE
+liquidEngine2,S1.5400/RD-58 Series,11D33M,300,TRUE,FALSE
+liquidEngine2,S1.5400/RD-58 Series,RD-58,600,TRUE,FALSE
+liquidEngine2,S1.5400/RD-58 Series,RD-58M,720,TRUE,FALSE
+liquidEngine2,S1.5400/RD-58 Series,RD-58S,680,TRUE,FALSE
+liquidEngine2,S1.5400/RD-58 Series,RD-58M-CCN,0,FALSE,FALSE
+LR87LH2Vac,LR87-LH2 Vacuum,LR87-LH2-TitanC,300,TRUE,FALSE
+LR87LH2Vac,LR87-LH2 Vacuum,LR87-LH2-Vacuum,360,TRUE,FALSE
+LR87LH2Vac,LR87-LH2 Vacuum,LR87-LH2-SustainerUpgrade,360,TRUE,FALSE
+LR87LH2Vac,LR87-LH2 Vacuum,LR87-LH2-VacuumUpgrade,480,TRUE,FALSE
+liquidEngine1-2,LR79 Series,LR79-NA-3,165,TRUE,FALSE
+liquidEngine1-2,LR79 Series,LR79-NA-9,165,TRUE,FALSE
+liquidEngine1-2,LR79 Series,LR79-NA-11,165,TRUE,FALSE
+liquidEngine1-2,LR79 Series,LR79-NA-13,260,TRUE,FALSE
+RO-LR-89,LR89 Series,LR89-NA-3,135,TRUE,FALSE
+RO-LR-89,LR89 Series,LR89-NA-5,150,TRUE,FALSE
+RO-LR-89,LR89 Series,LR89-NA-6,160,TRUE,FALSE
+RO-LR-89,LR89 Series,LR89-NA-7.1,165,TRUE,FALSE
+RO-LR-89,LR89 Series,LR89-NA-7.2,165,TRUE,FALSE
+RO-LR-89,LR89 Series,RS-56-OBA,170,TRUE,FALSE
+RO-H1-RS27,H-1/RS-27 Series,H-1-SaturnI,150,TRUE,FALSE
+RO-H1-RS27,H-1/RS-27 Series,H-1-SaturnIB,180,TRUE,FALSE
+RO-H1-RS27,H-1/RS-27 Series,RS-27,240,TRUE,FALSE
+RO-H1-RS27,H-1/RS-27 Series,RS-27A,285,TRUE,FALSE
+RO-E1,E-1,E-1,165,TRUE,FALSE
+RO-E1,E-1,E-1-Upgrade,210,TRUE,FALSE
+radialLiquidEngine1-2,RD-855 [Radial],RD-855,0,FALSE,FALSE
+liquidEngine2-2,Lunar Module Descent Engine,LMDE-H,960,TRUE,FALSE
+liquidEngine2-2,Lunar Module Descent Engine,LMDE-J,960,TRUE,FALSE
+liquidEngine2-2,Lunar Module Descent Engine,TR-201,0,FALSE,FALSE
+RO-RD-0210,RD-0210,RD-0210,238,TRUE,FALSE
+engineLargeSkipper,RL10 Series Vacuum Engine,RL10A-1,430,TRUE,FALSE
+engineLargeSkipper,RL10 Series Vacuum Engine,RL10A-3-1,470,TRUE,FALSE
+engineLargeSkipper,RL10 Series Vacuum Engine,RL10A-3-3,470,TRUE,FALSE
+engineLargeSkipper,RL10 Series Vacuum Engine,RL10A-3-3A,470,TRUE,FALSE
+engineLargeSkipper,RL10 Series Vacuum Engine,RL10A-4,392,TRUE,FALSE
+engineLargeSkipper,RL10 Series Vacuum Engine,RL10A-4-1/2,850,TRUE,FALSE
+engineLargeSkipper,RL10 Series Vacuum Engine,RL10A-5,430,TRUE,FALSE
+engineLargeSkipper,RL10 Series Vacuum Engine,RL10B-2,1130,TRUE,FALSE
+engineLargeSkipper,RL10 Series Vacuum Engine,RL10C-1,1130,TRUE,FALSE
+engineLargeSkipper,RL10 Series Vacuum Engine,CECE-Base,10000,TRUE,FALSE
+engineLargeSkipper,RL10 Series Vacuum Engine,CECE-High,0,FALSE,FALSE
+engineLargeSkipper,RL10 Series Vacuum Engine,CECE-Methane,0,FALSE,FALSE
+engineLargeSkipper.125m,Merlin Series,Merlin1A,0,FALSE,FALSE
+engineLargeSkipper.125m,Merlin Series,Merlin1B,0,FALSE,FALSE
+engineLargeSkipper.125m,Merlin Series,Merlin1BVac,0,FALSE,FALSE
+engineLargeSkipper.125m,Merlin Series,Merlin1C,0,FALSE,FALSE
+engineLargeSkipper.125m,Merlin Series,Merlin1CVac,0,FALSE,FALSE
+engineLargeSkipper.125m,Merlin Series,Merlin1D,0,FALSE,FALSE
+engineLargeSkipper.125m,Merlin Series,Merlin1D+,0,FALSE,FALSE
+engineLargeSkipper.125m,Merlin Series,Merlin1D++,0,FALSE,FALSE
+engineLargeSkipper.125m,Merlin Series,Merlin1DVac,0,FALSE,FALSE
+engineLargeSkipper.125m,Merlin Series,Merlin1DVac+,0,FALSE,FALSE
+RO-RD-253,RD-253/RD-275,RD-253,148,TRUE,FALSE
+RO-RD-253,RD-253/RD-275,RD-275,129,TRUE,FALSE
+RO-RD-253,RD-253/RD-275,RD-275M,0,FALSE,FALSE
+SSME,RS-25D (SSME),RS-25,0,FALSE,FALSE
+SSME,RS-25D (SSME),RS-25A,0,FALSE,FALSE
+SSME,RS-25D (SSME),RS-25C,0,FALSE,FALSE
+SSME,RS-25D (SSME),RS-25D/E,0,FALSE,FALSE
+MassiveBooster,RSRMV,RSRMV,0,FALSE,FALSE
+omsEngine,AJ10-190 [Radial],AJ10-190,0,FALSE,FALSE
+Size2LFB,Pyrios Booster,F-1B,0,FALSE,FALSE
+Size3AdvancedEngine,F-1 Series,F-1,0,FALSE,FALSE
+Size3AdvancedEngine,F-1 Series,F-1A,0,FALSE,FALSE
+Size3EngineCluster,RS-25D/E 4 Engine mount,RS-25,0,FALSE,FALSE
+Size3EngineCluster,RS-25D/E 4 Engine mount,RS-25A,0,FALSE,FALSE
+Size3EngineCluster,RS-25D/E 4 Engine mount,RS-25C,0,FALSE,FALSE
+Size3EngineCluster,RS-25D/E 4 Engine mount,RS-25D/E,0,FALSE,FALSE
+solidBooster1-1,Castor 120,Castor-120,0,FALSE,FALSE
+solidBooster1-1,Castor 120,Castor-120/Saddle,0,FALSE,FALSE
+solidBooster1-1,Castor 120,Castor-120/Regressive,0,FALSE,FALSE
+solidBooster1-1Small,Castor I,Castor-1,28,TRUE,FALSE
+RO-X-248,Altair,Altair,38,TRUE,FALSE
+M55,M55 (Minuteman) SRM,M55,75,TRUE,FALSE
+solidBooster,Castor 30XL,Castor-30XL,0,FALSE,FALSE
+solidBoosterSmall,Castor 30B,Castor-30B,0,FALSE,FALSE
+solidBooster.sm,Star 48B,Star-48B/Short,0,FALSE,FALSE
+solidBooster.sm,Star 48B,Star-48B/Long,0,FALSE,FALSE
+solidBooster.sm,Star 48B,Star48BV,0,FALSE,FALSE
+RO-X-258,Altair II,Altair-II,28,TRUE,FALSE
+RO-STAR-37,non RP-0 - Star 37,Star-37FM,0,FALSE,FALSE
+sepMotor1,Separation Motor (Large),SolidFuel,3,TRUE,FALSE
+SnubOtron,Separation Motor (small),SolidFuel,3,TRUE,FALSE
+ROBabySergeant,Baby Sergeant Rocket Motor,BabySergeant,6,TRUE,FALSE
+vernierEngine,Conformal RCS Thruster (275/445 N class),HTP,0,FALSE,TRUE
+vernierEngine,Conformal RCS Thruster (275/445 N class),Hydrazine,0,FALSE,TRUE
+vernierEngine,Conformal RCS Thruster (275/445 N class),NitrousOxide,0,FALSE,TRUE
+vernierEngine,Conformal RCS Thruster (275/445 N class),Helium,0,FALSE,TRUE
+vernierEngine,Conformal RCS Thruster (275/445 N class),Nitrogen,0,FALSE,TRUE
+vernierEngine,Conformal RCS Thruster (275/445 N class),MMH+NTO,0,FALSE,TRUE
+vernierEngine,Conformal RCS Thruster (275/445 N class),UDMH+NTO,0,FALSE,TRUE
+vernierEngine,Conformal RCS Thruster (275/445 N class),Aerozine50+NTO,0,FALSE,TRUE
+vernierEngine,Conformal RCS Thruster (275/445 N class),Cavea-B,0,FALSE,TRUE
+linearRcs,RCS Thruster (550/890 N class),HTP,0,FALSE,TRUE
+linearRcs,RCS Thruster (550/890 N class),Hydrazine,0,FALSE,TRUE
+linearRcs,RCS Thruster (550/890 N class),NitrousOxide,0,FALSE,TRUE
+linearRcs,RCS Thruster (550/890 N class),Helium,0,FALSE,TRUE
+linearRcs,RCS Thruster (550/890 N class),Nitrogen,0,FALSE,TRUE
+linearRcs,RCS Thruster (550/890 N class),MMH+NTO,0,FALSE,TRUE
+linearRcs,RCS Thruster (550/890 N class),UDMH+NTO,0,FALSE,TRUE
+linearRcs,RCS Thruster (550/890 N class),Aerozine50+NTO,0,FALSE,TRUE
+linearRcs,RCS Thruster (550/890 N class),Cavea-B,0,FALSE,TRUE
+RO.FASA.MercuryPodRCS,Attitude Jet (138/223 N class),HTP,0,FALSE,TRUE
+RO.FASA.MercuryPodRCS,Attitude Jet (138/223 N class),Hydrazine,0,FALSE,TRUE
+RO.FASA.MercuryPodRCS,Attitude Jet (138/223 N class),NitrousOxide,0,FALSE,TRUE
+RO.FASA.MercuryPodRCS,Attitude Jet (138/223 N class),Helium,0,FALSE,TRUE
+RO.FASA.MercuryPodRCS,Attitude Jet (138/223 N class),Nitrogen,0,FALSE,TRUE
+RO.FASA.MercuryPodRCS,Attitude Jet (138/223 N class),MMH+NTO,0,FALSE,TRUE
+RO.FASA.MercuryPodRCS,Attitude Jet (138/223 N class),UDMH+NTO,0,FALSE,TRUE
+RO.FASA.MercuryPodRCS,Attitude Jet (138/223 N class),Aerozine50+NTO,0,FALSE,TRUE
+RO.FASA.MercuryPodRCS,Attitude Jet (138/223 N class),Cavea-B,0,FALSE,TRUE
+RO.FASA.ExplorerRCS,Attitude Jet (69/111 N class),HTP,0,FALSE,TRUE
+RO.FASA.ExplorerRCS,Attitude Jet (69/111 N class),Hydrazine,0,FALSE,TRUE
+RO.FASA.ExplorerRCS,Attitude Jet (69/111 N class),NitrousOxide,0,FALSE,TRUE
+RO.FASA.ExplorerRCS,Attitude Jet (69/111 N class),Helium,0,FALSE,TRUE
+RO.FASA.ExplorerRCS,Attitude Jet (69/111 N class),Nitrogen,0,FALSE,TRUE
+RO.FASA.ExplorerRCS,Attitude Jet (69/111 N class),MMH+NTO,0,FALSE,TRUE
+RO.FASA.ExplorerRCS,Attitude Jet (69/111 N class),UDMH+NTO,0,FALSE,TRUE
+RO.FASA.ExplorerRCS,Attitude Jet (69/111 N class),Aerozine50+NTO,0,FALSE,TRUE
+RO.FASA.ExplorerRCS,Attitude Jet (69/111 N class),Cavea-B,0,FALSE,TRUE
+RO.linearRcs.tenth,Attitude Jet (28/45 N class),HTP,0,FALSE,TRUE
+RO.linearRcs.tenth,Attitude Jet (28/45 N class),Hydrazine,0,FALSE,TRUE
+RO.linearRcs.tenth,Attitude Jet (28/45 N class),NitrousOxide,0,FALSE,TRUE
+RO.linearRcs.tenth,Attitude Jet (28/45 N class),Helium,0,FALSE,TRUE
+RO.linearRcs.tenth,Attitude Jet (28/45 N class),Nitrogen,0,FALSE,TRUE
+RO.linearRcs.tenth,Attitude Jet (28/45 N class),MMH+NTO,0,FALSE,TRUE
+RO.linearRcs.tenth,Attitude Jet (28/45 N class),UDMH+NTO,0,FALSE,TRUE
+RO.linearRcs.tenth,Attitude Jet (28/45 N class),Aerozine50+NTO,0,FALSE,TRUE
+RO.linearRcs.tenth,Attitude Jet (28/45 N class),Cavea-B,0,FALSE,TRUE
+RCSBlock,RCS Quad (275/445 N class),HTP,0,FALSE,TRUE
+RCSBlock,RCS Quad (275/445 N class),Hydrazine,0,FALSE,TRUE
+RCSBlock,RCS Quad (275/445 N class),NitrousOxide,0,FALSE,TRUE
+RCSBlock,RCS Quad (275/445 N class),Helium,0,FALSE,TRUE
+RCSBlock,RCS Quad (275/445 N class),Nitrogen,0,FALSE,TRUE
+RCSBlock,RCS Quad (275/445 N class),MMH+NTO,0,FALSE,TRUE
+RCSBlock,RCS Quad (275/445 N class),UDMH+NTO,0,FALSE,TRUE
+RCSBlock,RCS Quad (275/445 N class),Aerozine50+NTO,0,FALSE,TRUE
+RCSBlock,RCS Quad (275/445 N class),Cavea-B,0,FALSE,TRUE
+SquadRCSBlockHalf,RCS Quad (138/223 N class),HTP,0,FALSE,TRUE
+SquadRCSBlockHalf,RCS Quad (138/223 N class),Hydrazine,0,FALSE,TRUE
+SquadRCSBlockHalf,RCS Quad (138/223 N class),NitrousOxide,0,FALSE,TRUE
+SquadRCSBlockHalf,RCS Quad (138/223 N class),Helium,0,FALSE,TRUE
+SquadRCSBlockHalf,RCS Quad (138/223 N class),Nitrogen,0,FALSE,TRUE
+SquadRCSBlockHalf,RCS Quad (138/223 N class),MMH+NTO,0,FALSE,TRUE
+SquadRCSBlockHalf,RCS Quad (138/223 N class),UDMH+NTO,0,FALSE,TRUE
+SquadRCSBlockHalf,RCS Quad (138/223 N class),Aerozine50+NTO,0,FALSE,TRUE
+SquadRCSBlockHalf,RCS Quad (138/223 N class),Cavea-B,0,FALSE,TRUE
+RCSBlockQuarter,RCS Quad (69/111 N class),HTP,0,FALSE,TRUE
+RCSBlockQuarter,RCS Quad (69/111 N class),Hydrazine,0,FALSE,TRUE
+RCSBlockQuarter,RCS Quad (69/111 N class),NitrousOxide,0,FALSE,TRUE
+RCSBlockQuarter,RCS Quad (69/111 N class),Helium,0,FALSE,TRUE
+RCSBlockQuarter,RCS Quad (69/111 N class),Nitrogen,0,FALSE,TRUE
+RCSBlockQuarter,RCS Quad (69/111 N class),MMH+NTO,0,FALSE,TRUE
+RCSBlockQuarter,RCS Quad (69/111 N class),UDMH+NTO,0,FALSE,TRUE
+RCSBlockQuarter,RCS Quad (69/111 N class),Aerozine50+NTO,0,FALSE,TRUE
+RCSBlockQuarter,RCS Quad (69/111 N class),Cavea-B,0,FALSE,TRUE
+SquadRCSBlockTenth,RCS Quad (28/45 N class),HTP,0,FALSE,TRUE
+SquadRCSBlockTenth,RCS Quad (28/45 N class),Hydrazine,0,FALSE,TRUE
+SquadRCSBlockTenth,RCS Quad (28/45 N class),NitrousOxide,0,FALSE,TRUE
+SquadRCSBlockTenth,RCS Quad (28/45 N class),Helium,0,FALSE,TRUE
+SquadRCSBlockTenth,RCS Quad (28/45 N class),Nitrogen,0,FALSE,TRUE
+SquadRCSBlockTenth,RCS Quad (28/45 N class),MMH+NTO,0,FALSE,TRUE
+SquadRCSBlockTenth,RCS Quad (28/45 N class),UDMH+NTO,0,FALSE,TRUE
+SquadRCSBlockTenth,RCS Quad (28/45 N class),Aerozine50+NTO,0,FALSE,TRUE
+SquadRCSBlockTenth,RCS Quad (28/45 N class),Cavea-B,0,FALSE,TRUE
+MEMLander,Apollo Lunar Module Ascent Module,LMAE,0,FALSE,FALSE
+MEMDescentMod,Apollo Lunar Module Descent Module,LMDE-H,960,TRUE,FALSE
+MEMDescentMod,Apollo Lunar Module Descent Module,LMDE-J,960,TRUE,FALSE
+RCSBoonExt,RCS Quad; Extensible (138/223 N class),HTP,0,FALSE,TRUE
+RCSBoonExt,RCS Quad; Extensible (138/223 N class),Hydrazine,0,FALSE,TRUE
+RCSBoonExt,RCS Quad; Extensible (138/223 N class),NitrousOxide,0,FALSE,TRUE
+RCSBoonExt,RCS Quad; Extensible (138/223 N class),Helium,0,FALSE,TRUE
+RCSBoonExt,RCS Quad; Extensible (138/223 N class),Nitrogen,0,FALSE,TRUE
+RCSBoonExt,RCS Quad; Extensible (138/223 N class),MMH+NTO,0,FALSE,TRUE
+RCSBoonExt,RCS Quad; Extensible (138/223 N class),UDMH+NTO,0,FALSE,TRUE
+RCSBoonExt,RCS Quad; Extensible (138/223 N class),Aerozine50+NTO,0,FALSE,TRUE
+RCSBoonExt,RCS Quad; Extensible (138/223 N class),Cavea-B,0,FALSE,TRUE
+SXTRCSRack,RCS Thruster 3x (1.24/2 kN class),HTP,0,FALSE,TRUE
+SXTRCSRack,RCS Thruster 3x (1.24/2 kN class),Hydrazine,0,FALSE,TRUE
+SXTRCSRack,RCS Thruster 3x (1.24/2 kN class),NitrousOxide,0,FALSE,TRUE
+SXTRCSRack,RCS Thruster 3x (1.24/2 kN class),Helium,0,FALSE,TRUE
+SXTRCSRack,RCS Thruster 3x (1.24/2 kN class),Nitrogen,0,FALSE,TRUE
+SXTRCSRack,RCS Thruster 3x (1.24/2 kN class),MMH+NTO,0,FALSE,TRUE
+SXTRCSRack,RCS Thruster 3x (1.24/2 kN class),UDMH+NTO,0,FALSE,TRUE
+SXTRCSRack,RCS Thruster 3x (1.24/2 kN class),Aerozine50+NTO,0,FALSE,TRUE
+SXTRCSRack,RCS Thruster 3x (1.24/2 kN class),Cavea-B,0,FALSE,TRUE
+SXTBlackAdder,Gamma 8,Gamma-8,140,TRUE,FALSE
+SXTBlackAdder2,Gamma 2,Gamma-2,140,TRUE,FALSE
+SXTWaxWing,Waxwing Kick Motor,Waxwing,0,FALSE,FALSE
+SXTLT80,J-2 Series,J-2,500,TRUE,FALSE
+SXTLT80,J-2 Series,J-2S,600,TRUE,FALSE
+SXTLT80,J-2 Series,J-2-200klbf,135,TRUE,FALSE
+SXTCommodore,RD-0120,RD-0120,0,FALSE,FALSE
+SXTKD170,RD-170 Series,RD-170,0,FALSE,FALSE
+SXTKD170,RD-170 Series,RD-171,0,FALSE,FALSE
+SXTKD170,RD-170 Series,RD-171M,0,FALSE,FALSE
+R7.Core.Engine,RD-108 Series,RD-108_8D75PS,340,TRUE,FALSE
+R7.Core.Engine,RD-108 Series,RD-108_8D75K,340,TRUE,FALSE
+R7.Core.Engine,RD-108 Series,RD-108MM_8D727,340,TRUE,FALSE
+R7.Core.Engine,RD-108 Series,RD-118_11D512,340,TRUE,FALSE
+R7.Core.Engine,RD-108 Series,RD-108A_14D21,340,TRUE,FALSE
+R7.Booster.Engine,RD-107 Series,RD-107_8D74PS,121,TRUE,FALSE
+R7.Booster.Engine,RD-107 Series,RD-107_8D74K,121,TRUE,FALSE
+R7.Booster.Engine,RD-107 Series,RD-107MM_8D728,121,TRUE,FALSE
+R7.Booster.Engine,RD-107 Series,RD-117_11D511,121,TRUE,FALSE
+R7.Booster.Engine,RD-107 Series,RD-107A_14D22,121,TRUE,FALSE
+SXTCastor30,Star 17,Star17,0,FALSE,FALSE
+SXTNERVA,Bimodal Advanced NTR,Hydrogen-NTR,0,FALSE,FALSE
+SXTNERVA,Bimodal Advanced NTR,TRITON,0,FALSE,FALSE
+SXTNERVAB,NERVA II,NERVA-II,0,FALSE,FALSE
+SXTAJ10,AJ10 Series (Early),AJ10-37,115,TRUE,FALSE
+SXTAJ10,AJ10 Series (Early),AJ10-42,150,TRUE,FALSE
+SXTAJ10,AJ10 Series (Early),AJ10-101A,150,TRUE,FALSE
+SXTAJ10,AJ10 Series (Early),AJ10-142,150,TRUE,FALSE
+SXTAJ10,AJ10 Series (Early),AJ10-118,150,TRUE,FALSE
+SXTAJ10,AJ10 Series (Early),AJ10-118D,180,TRUE,FALSE
+SXTAJ10Mid,AJ10 Series (Mid),AJ10-104D,300,TRUE,FALSE
+SXTAJ10Mid,AJ10 Series (Mid),AJ10-118E,380,TRUE,FALSE
+SXTAJ10Adv,AJ10 Series (Advanced),AJ10-118F,0,FALSE,FALSE
+SXTAJ10Adv,AJ10 Series (Advanced),AJ10-118K,0,FALSE,FALSE
+SXTAJ10Adv,AJ10 Series (Advanced),AJ10-138,0,FALSE,FALSE
+SXTX405,XLR50 (Vanguard X-405) Booster,X-405-Exhaust,0,FALSE,FALSE
+SXTK1BaseLarge,RP-0 nocost - N1 Block A,30x NK-15,0,FALSE,FALSE
+SXTK1BaseLarge,RP-0 nocost - N1 Block A,30x NK-33,0,FALSE,FALSE
+SXTK1Base5m,non RP-0 - N1 Block B,8x NK-15V,0,FALSE,FALSE
+SXTK1Base5m,non RP-0 - N1 Block B,8x NK-43,0,FALSE,FALSE
+SXTNK21BlockV,N1 Block V,4x NK-21,0,FALSE,FALSE
+SXTNK21BlockV,N1 Block V,4x NK-39,0,FALSE,FALSE
+Bumper.Engine,A-4,A-4,70,TRUE,FALSE
+Bumper.Engine.Unclad,A-4,A-4,70,TRUE,FALSE
+X1.Engine,XLR11,XLR11,0,FALSE,FALSE
+liquidEngineMiniTurbo,BE-4,BE-4,0,FALSE,FALSE
+HeavyRcs,RCS Quad (550/890 N class),HTP,0,FALSE,TRUE
+HeavyRcs,RCS Quad (550/890 N class),Hydrazine,0,FALSE,TRUE
+HeavyRcs,RCS Quad (550/890 N class),NitrousOxide,0,FALSE,TRUE
+HeavyRcs,RCS Quad (550/890 N class),Helium,0,FALSE,TRUE
+HeavyRcs,RCS Quad (550/890 N class),Nitrogen,0,FALSE,TRUE
+HeavyRcs,RCS Quad (550/890 N class),MMH+NTO,0,FALSE,TRUE
+HeavyRcs,RCS Quad (550/890 N class),UDMH+NTO,0,FALSE,TRUE
+HeavyRcs,RCS Quad (550/890 N class),Aerozine50+NTO,0,FALSE,TRUE
+HeavyRcs,RCS Quad (550/890 N class),Cavea-B,0,FALSE,TRUE
+InlineRCS,Inline RCS block (138/223 N class),HTP,0,FALSE,TRUE
+InlineRCS,Inline RCS block (138/223 N class),Hydrazine,0,FALSE,TRUE
+InlineRCS,Inline RCS block (138/223 N class),NitrousOxide,0,FALSE,TRUE
+InlineRCS,Inline RCS block (138/223 N class),Helium,0,FALSE,TRUE
+InlineRCS,Inline RCS block (138/223 N class),Nitrogen,0,FALSE,TRUE
+InlineRCS,Inline RCS block (138/223 N class),MMH+NTO,0,FALSE,TRUE
+InlineRCS,Inline RCS block (138/223 N class),UDMH+NTO,0,FALSE,TRUE
+InlineRCS,Inline RCS block (138/223 N class),Aerozine50+NTO,0,FALSE,TRUE
+InlineRCS,Inline RCS block (138/223 N class),Cavea-B,0,FALSE,TRUE
+LargeOMS,Astris,AstrisI,0,FALSE,FALSE
+LargeOMS,Astris,AstrisII,0,FALSE,FALSE
+solidBoosterMAX,UA1205,UA1205,0,FALSE,FALSE
+45DegreeRCS,RCS Quad; 45deg (275/445 N class),HTP,0,FALSE,TRUE
+45DegreeRCS,RCS Quad; 45deg (275/445 N class),Hydrazine,0,FALSE,TRUE
+45DegreeRCS,RCS Quad; 45deg (275/445 N class),NitrousOxide,0,FALSE,TRUE
+45DegreeRCS,RCS Quad; 45deg (275/445 N class),Helium,0,FALSE,TRUE
+45DegreeRCS,RCS Quad; 45deg (275/445 N class),Nitrogen,0,FALSE,TRUE
+45DegreeRCS,RCS Quad; 45deg (275/445 N class),MMH+NTO,0,FALSE,TRUE
+45DegreeRCS,RCS Quad; 45deg (275/445 N class),UDMH+NTO,0,FALSE,TRUE
+45DegreeRCS,RCS Quad; 45deg (275/445 N class),Aerozine50+NTO,0,FALSE,TRUE
+45DegreeRCS,RCS Quad; 45deg (275/445 N class),Cavea-B,0,FALSE,TRUE
+LVT15,RD-103,RD-103,112,TRUE,FALSE
+LVT15,RD-103,RD-103M,130,TRUE,FALSE
+RO-AgenaEngine,XLR81 (Agena) Vacuum Engine,XLR81-BA-5,120,TRUE,FALSE
+RO-AgenaEngine,XLR81 (Agena) Vacuum Engine,XLR81-BA-7,240,TRUE,FALSE
+RO-AgenaEngine,XLR81 (Agena) Vacuum Engine,XLR81-BA-11,240,TRUE,FALSE
+RO-AgenaEngine,XLR81 (Agena) Vacuum Engine,XLR81-BA-13,240,TRUE,FALSE
+RO-AgenaEngine,XLR81 (Agena) Vacuum Engine,Model8096-39,240,TRUE,FALSE
+RO-AgenaEngine,XLR81 (Agena) Vacuum Engine,Model8096A,0,FALSE,FALSE
+RO-AgenaEngine,XLR81 (Agena) Vacuum Engine,Model8096L,0,FALSE,FALSE
+RT1,non RP-0 - Castor 4,Castor-4,0,FALSE,FALSE
+RT2,Castor II,Castor-2,38,TRUE,FALSE
+Size2MedEngine,RD-108 Series,RD-108_8D75PS,340,TRUE,FALSE
+Size2MedEngine,RD-108 Series,RD-108_8D75K,340,TRUE,FALSE
+Size2MedEngine,RD-108 Series,RD-108MM_8D727,340,TRUE,FALSE
+Size2MedEngine,RD-108 Series,RD-118_11D512,340,TRUE,FALSE
+Size2MedEngine,RD-108 Series,RD-108A_14D21,340,TRUE,FALSE

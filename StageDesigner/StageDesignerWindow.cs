@@ -1,9 +1,10 @@
 ﻿using KSP.UI.Screens;
 using KSPPluginFramework;
-using RealFuels;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
+using System.Text;
 using UnityEngine;
 
 namespace StageDesigner
@@ -114,32 +115,80 @@ namespace StageDesigner
         void InitializeEngineStats()
         {
             engineStats = new List<EngineData>();
+
+            // get all the parts that are available based on current R&D, whether they've been unlocked or not
             foreach (AvailablePart part in PartLoader.LoadedPartsList.Where(p => ResearchAndDevelopment.PartTechAvailable(p)))
             {
-                List<ModuleEngineConfigs> allConfigs = new List<ModuleEngineConfigs>();
-                allConfigs.AddRange(part.partPrefab.Modules.GetModules<ModuleEngineConfigs>());
-                if (allConfigs.Count <= 0)
+                if (!part.partPrefab.Modules.Contains("ModuleEngineConfigs"))
+                { 
+                    // we're only interested in the parts that have a module of type RealFuels.ModuleEngineConfig
                     continue;
+                }
 
-                foreach (var engineConfig in allConfigs)
+                // get a dictionary of configname-burn time by looking for TestFlight.TestFlightReliability_EngineCycle modules
+                var burnTimes = GetTestFlightBurnTimesForEngine(part);
+
+                // via reflection, get the list of engine config variations
+                var engineConfig = part.partPrefab.Modules["ModuleEngineConfigs"];
+                System.Type engineConfigType = engineConfig.GetType();
+                var piConfigsList = engineConfigType.GetField("configs");
+                if (piConfigsList == null)
                 {
-                    foreach (var altConfig in engineConfig.configs)
+                    LogFormatted_DebugOnly("Unable to get ModuleEngineConfigs.configs for part {0}:{1}", part.name, part.title);
+                    continue;
+                }
+
+                // this field will tell us if it's RCS or not
+                var engineType = engineConfigType.GetField("type").GetValue(engineConfig) as string;
+
+                // now iterate through the variations
+                IEnumerable configsList = piConfigsList.GetValue(engineConfig) as IEnumerable;
+                foreach (var altConfig in configsList)
+                {
+                    string name = (string)altConfig.GetType().InvokeMember("GetValue", BindingFlags.InvokeMethod | BindingFlags.Instance | BindingFlags.Public, null, altConfig, new object[] { "name" });
+
+                    // see if we have a burn time for this config by name
+                    float burnTime = 0;
+                    if (burnTimes.ContainsKey(name))
                     {
-                        string burnTime = "-";
-                        if (altConfig.HasValue("description"))
-                        {
-                            var description = altConfig.GetValue("description");
-                            var burnTimeIndex = description.LastIndexOf("Rated Burn Time ");
-                            if (burnTimeIndex >= 0)
-                            {
-                                burnTime = description.Substring(burnTimeIndex + 16);
-                            }
-                        }
-                        var engineStat = new EngineData { Name = part.title, Title = altConfig.GetValue("name"), PartName = engineConfig.name, BurnTime = burnTime };
-                        engineStats.Add(engineStat);
+                        burnTime = burnTimes[name];
                     }
+
+                    // add the completed engine data to our master list
+                    var engineStat = new EngineData { Name = part.title, Title = name, PartName = engineConfig.name, BurnTime = burnTime, isRcs = (engineType == "ModuleRCS") };
+                    engineStats.Add(engineStat);
                 }
             }
+            LogFormatted(BuildEngineListing());
+        }
+
+        internal Dictionary<string, float> GetTestFlightBurnTimesForEngine(AvailablePart engine)
+        {
+            var result = new Dictionary<string, float>();
+
+            foreach (var module in engine.partPrefab.Modules)
+            {
+                if (module.GetType().Name == "TestFlightReliability_EngineCycle")
+                {
+                    System.Type engineCycleType = module.GetType();
+                    var config = module.GetType().GetField("engineConfig").GetValue(module) as string;
+                    var burnTime = (float)module.GetType().GetField("ratedBurnTime").GetValue(module);
+                    result.Add(config, burnTime);
+                }
+            }
+
+            return result;
+        }
+
+        internal string BuildEngineListing()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("PartName,Title,Config,BurnTime,hasBurnTime,isRcs");
+            foreach (var engine in engineStats)
+            {
+                sb.AppendLine(string.Format("{0},{1},{2},{3},{4},{5}", engine.PartName, engine.Name.Replace(',',';'), engine.Title, engine.BurnTime, (engine.BurnTime > 0), engine.isRcs));
+            }
+            return sb.ToString();
         }
     }
 }
